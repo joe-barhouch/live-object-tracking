@@ -31,7 +31,7 @@ const Scalar RED = Scalar(0.0, 0.0, 255.0);
 
 int main(void) {
 	VideoCapture capVideo;
-	capVideo.open(1);
+	capVideo.open(0);
 	Mat imgFrame1;
 	Mat imgFrame2;
 
